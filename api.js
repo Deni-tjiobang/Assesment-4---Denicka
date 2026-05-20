@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   res.send('Welcome to assessment 4 - Denicka!');
 });
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.sen('Welcome to assessment 4 - Denicka!');
 });
 
