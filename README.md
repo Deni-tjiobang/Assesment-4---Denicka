@@ -1,1 +1,30 @@
 # Assesment-4---Denicka
+
+# Assessment 4 project
+
+## Student Information
+
+- Student name: Denicka
+- Course: ITDI204 Cloud Computing
+- Application: Assessment
+
+## Cloud Deployment
+
+This application is deployed using Render.
+
+## Repository Structure
+
+*Briefly describe the important files in the repository.*
+
+## Branching Strategy
+
+| Branch | Purpose |
+|---|---|
+| main | Production version |
+| staging | Testing version before production |
+
+## Render Environment
+
+| Environment | Branch | Render URL |
+|---|---|---|
+| Production | main | *Add URL here* |
