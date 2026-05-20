@@ -1,0 +1,5 @@
+Two other ways to get the same result are:
+
+1. Forking a repository, which means copying an existing project directly into my GitHub account.
+
+2. Cloning a repository, which means downloading/cloning the project using Git (git clone) and then uploading it to my own repository.
