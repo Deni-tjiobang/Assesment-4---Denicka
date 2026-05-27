@@ -1,14 +1,13 @@
-// index.js
+// api.js
 const express = require('express');
 const app = express();
 const visiteur = process.env.visiteur || 'Anonyme';
 
-app.get('/', (req, res) => {
-  res.send('Welcome to assessment 4 - Denicka!');
-});
-
-app.get('/api', (req, res) => {
-  res.sen('Welcome to assessment 4 - Denicka!');
+app.get('/health', (req, res) => {
+  res.json({
+    status: "ok",
+    environment: process.env.APP_ENV || "local"
+  });
 });
 
 const PORT = process.env.PORT || 3000;
